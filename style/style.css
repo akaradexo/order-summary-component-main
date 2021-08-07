@@ -69,7 +69,7 @@ body {
     align-items: center;
 }
 
-.details h2{
+.details h1{
     color: var(--clr-Dark-blue);
     font-size: 1.6rem;
     font-weight: 900;
@@ -100,7 +100,8 @@ body {
     padding-left: 1rem;
 }
 
-.subs .plan h4{
+.subs .plan h2{
+    font-size: 1rem;
     font-weight: 900;
     color: var(--clr-Dark-blue);
 }
