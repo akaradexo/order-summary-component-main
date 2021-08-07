@@ -165,3 +165,12 @@ body {
     }
     
 }
+    
+.attribution {
+    font-size: 1rem;
+    text-align: center;
+    margin: -2rem 0;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
