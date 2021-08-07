@@ -41,6 +41,11 @@ body {
     align-items: center;
 }
 
+.img-responsive{
+    width: 100%;
+    height: auto;
+}
+
 .card{
     display: flex;
     flex-direction: column;
@@ -52,7 +57,7 @@ body {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
-.card img{
+.card .hero{
     border-radius: 1rem 1rem 0 0 ;
 }
 
@@ -110,6 +115,7 @@ body {
     font-size: 0.9rem;
     cursor: pointer;
 }
+
 .subs a:hover{
     opacity: 0.9;
     text-decoration: none;
@@ -130,13 +136,32 @@ body {
     font-weight: 700;   
     box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
 }
+
 .btn-pay:hover{
     opacity: 0.8;
 }
+
 .btn-cancel{
     color: var(--clr-Desaturated-blue);
     font-weight: 900;
 }
+
 .btn-cancel:hover{
     color: var(--clr-Dark-blue);
+}
+
+@media (max-width:991px){
+    .card{
+        width: 350px ;
+    }
+    .details p{
+        padding: 0.8rem 1.8rem;
+    }
+    .subs .plan{
+        padding-right: 2.5rem;
+    }
+    .btn{
+        width: 300px;
+    }
+    
 }
